@@ -1,0 +1,29 @@
+{
+  "name": "pdf-test",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Vitalii Savchuk <esvit666@gmail.com>",
+  "private": true,
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "npx babel-node test.js"
+  },
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "pdfjs-dist": "^2.13.216"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "@babel/plugin-proposal-decorators": "^7.14.5",
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/runtime": "^7.15.3",
+    "babel-eslint": "^10.1.0"
+  }
+}
